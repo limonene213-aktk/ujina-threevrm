@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>ThreeVRMのサンプルコード</title>
+        <style>
+            body{
+                margin:0;
+                overflow:hidden;
+            }
+        </style>
+    </head>
+    <body>
+        <script type="importmap">
+          {
+            "imports": {
+                "three": "https://unpkg.com/three@0.158.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.158.0/examples/jsm/",
+                "@pixiv/three-vrm": "https://esm.sh/@pixiv/three-vrm@2.0.6?external=three",
+                
+                "@pixiv/three-vrm-animation": "https://esm.sh/@pixiv/three-vrm-animation?external=three"
+            }
+        }
+          </script>
+        <script type="module" src="./main.js"></script>
+    </body>
+</html>
